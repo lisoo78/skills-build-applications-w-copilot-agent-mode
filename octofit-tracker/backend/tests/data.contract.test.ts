@@ -24,6 +24,7 @@ describe('OctoFit data contract', () => {
     const missing = new Team({}).validateSync();
     expect(missing?.errors.name).toBeDefined();
     expect(missing?.errors.mascot).toBeDefined();
+    # dummy comment 
   });
   it('requires activities to connect users, teams, types, minutes, points, and dates', () => {
     const activity = new Activity({});
