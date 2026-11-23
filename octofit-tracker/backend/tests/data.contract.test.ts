@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import { seed } from '../src/scripts/seed.js';
 import { Activity, Team, User, Workout } from '../src/models/index.js';
 
+//additional comment
 describe('OctoFit data contract', () => {
   it('requires meaningful user identity and goals', async () => {
     const user = new User({});
